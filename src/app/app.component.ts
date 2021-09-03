@@ -35,8 +35,14 @@ export class AppComponent {
   constructor() {
     //TODO: OPERACIONES
     //https://firebase.google.com/docs/database/web/read-and-write?hl=es-419#web-v9_3
+
+    set(ref(database, 'juegos/' + 0), {
+      juego: 'Para ella',
+      descripcion: 'El juego'
+    });
+
     const dbRef = ref(getDatabase());
-    get(child(dbRef, `usuarios/`)).then((snapshot) => {
+    get(child(dbRef, `juegos/`)).then((snapshot) => {
       if (snapshot.exists()) {
         console.log(snapshot.val());
       } else {
@@ -46,16 +52,12 @@ export class AppComponent {
       console.error(error);
     });
 
-    // set(ref(database, 'usuarios/' + 1), {
-    //   username: 'prueba',
-    //   email: 'prueba'
-    // });
   }
 
   
 }
 
-
+//https://firebase.google.com/docs/database/web/structure-data?hl=es-419
 // function writeNewPost(uid, username, picture, title, body) {
 //   const db = getDatabase();
 
