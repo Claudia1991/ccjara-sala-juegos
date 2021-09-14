@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuPrincipalComponent implements OnInit {
 
+  public usuario: string = '';
+  public usuarioLogueado: boolean = false;
+  
   constructor() { }
 
   ngOnInit(): void {

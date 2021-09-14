@@ -1,0 +1,17 @@
+<div class="col-md12">
+  <form class="form-signin">
+    <h1 class="h3 mb-3 font-weight-normal">¡Bienvenidos!</h1>
+    <div class="form-group">
+      <input type="email" [(ngModel)]="userLogin.email" name="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+    </div>
+    <div class="form-group">
+      <input type="password" [(ngModel)]="userLogin.password" name="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+    </div>
+    <button class="btn btn-lg btn-primary btn-block" type="button" (click)="Registrar()">Registrarse</button>
+    <button class="btn btn-lg btn-primary btn-block" type="button" (click)="Ingresar()">Ingresar</button>
+    
+  </form>
+</div>
+<div *ngIf="error" class="alert alert-danger" role="alert">
+  {{mensajeError}}
+</div>

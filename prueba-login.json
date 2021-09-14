@@ -1,0 +1,25 @@
+{
+    "uid": "Z4OODPU5UWQMwJWOrshHhytt0dD2",
+    "email": "claudia.jara.py@gmail.com",
+    "emailVerified": false,
+    "isAnonymous": false,
+    "providerData": [
+        {
+            "providerId": "password",
+            "uid": "claudia.jara.py@gmail.com",
+            "displayName": null,
+            "email": "claudia.jara.py@gmail.com",
+            "phoneNumber": null,
+            "photoURL": null
+        }
+    ],
+    "stsTokenManager": {
+        "refreshToken": "ACzBnCh9QM0wlV_pqY9M7IKvic1KVA3jc10CxGQO06-QNrumy7e6AlhaIvTYmhhxsQDccgViWRPQ559ySzOf9W4QW6pAlG5hIhMd3jwci4kA2f6f5RVpH22GpA5L9db6WztMxUCGX1eDDJRdSnYWlqZlqwjpkZQ7pW_jv35La8zm9yWftGv1kmQsQgtahEnFNDZpjefGcogPL04hrw7SnZXO1_7c2nLxIQ",
+        "accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjEyYWZkYjliOGJmZmMyY2M4ZTU4NGQ2ZWE2ODlmYzEwYTg3MGI2NzgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY2NqYXJhLWxhYi1pdiIsImF1ZCI6ImNjamFyYS1sYWItaXYiLCJhdXRoX3RpbWUiOjE2MzE1NzcwMzAsInVzZXJfaWQiOiJaNE9PRFBVNVVXUU13SldPcnNoSGh5dHQwZEQyIiwic3ViIjoiWjRPT0RQVTVVV1FNd0pXT3JzaEhoeXR0MGREMiIsImlhdCI6MTYzMTU3NzAzMCwiZXhwIjoxNjMxNTgwNjMwLCJlbWFpbCI6ImNsYXVkaWEuamFyYS5weUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiY2xhdWRpYS5qYXJhLnB5QGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.N8E7Xdkj6kZv6aiROHh39Cl_oum7JeXWGO3pMVPZcIgCl5DokhPfRjFSlD7af3rjW0yFz7ZAkOVRZ8T4JEJY-h21ksJ8MtVDO3oGolggHvFx7Or8jE17oBcyWTTTxlfGuvwfjLl0Ca2vMlBCCucVbxYUc9wHhZrM33bwhgBItKNBnTiK8nQJ8BGp94guhztZ06HRk1OVuL5OyyB77Y017REBjE9BTKD3tjrToWh9vHLwLiRT_Wx3BJs8OdlsRx34dCV1Ebw_8CE32fkfalS3tPG6YewQsALSzpzMvOOxVpqwKnBeaeLm80J2fdeWwfsuirrPR4vuJH6AKMAesSmZDg",
+        "expirationTime": 1631580633736
+    },
+    "createdAt": "1631577030503",
+    "lastLoginAt": "1631577030503",
+    "apiKey": "AIzaSyBbgfi6gSLkjpOHj9MOxlBbq8JLPBXxPVA",
+    "appName": "[DEFAULT]"
+}
