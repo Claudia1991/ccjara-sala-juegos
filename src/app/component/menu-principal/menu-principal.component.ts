@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UsuarioService } from '../../services/usuario.service';
 
 @Component({
   selector: 'app-menu-principal',
@@ -10,9 +11,13 @@ export class MenuPrincipalComponent implements OnInit {
   public usuario: string = '';
   public usuarioLogueado: boolean = false;
   
-  constructor() { }
+  constructor(private userService: UsuarioService) { }
 
   ngOnInit(): void {
+    if(this.userService.nombre){
+      this.usuarioLogueado = true;
+      this.usuario = this.userService.nombre;
+    }
   }
 
 }

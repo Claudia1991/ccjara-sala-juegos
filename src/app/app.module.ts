@@ -11,6 +11,7 @@ import { AdministradorComponent } from './page/administrador/administrador.compo
 import { DetailComponent } from './component/detail/detail.component';
 import { FormsModule } from '@angular/forms';
 import { QuienSoyComponent } from './component/quien-soy/quien-soy.component';
+import { SpinnerComponent } from './component/spinner/spinner.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { QuienSoyComponent } from './component/quien-soy/quien-soy.component';
     MenuPrincipalComponent,
     AdministradorComponent,
     DetailComponent,
-    QuienSoyComponent
+    QuienSoyComponent,
+    SpinnerComponent
   ],
   imports: [
     BrowserModule,

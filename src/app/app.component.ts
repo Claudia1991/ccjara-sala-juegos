@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getDatabase,ref, child, get,set } from "firebase/database";
 import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';

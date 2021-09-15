@@ -15,7 +15,16 @@ form{
   background-image: url('../../../assets/Buscaminas-logo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.login-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .form-signin {
@@ -24,10 +33,9 @@ form{
   padding: 15px;
   margin: auto;
 }
-.form-signin .checkbox {
-  font-weight: 400;
-}
+
 .form-signin .form-control {
+  width: 100%;
   position: relative;
   box-sizing: border-box;
   height: auto;
@@ -47,3 +55,4 @@ form{
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
