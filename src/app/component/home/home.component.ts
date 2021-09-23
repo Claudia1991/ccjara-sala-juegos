@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  //Variables
+  public estadoQuienSoy:boolean = false;
+  public estadoJuegos:boolean = false;
+  public estadoChat:boolean = false;
+  //Constructor
   constructor() { }
-
+  //Metodos
   ngOnInit(): void {
+  }
+  CambiarVisibilidadQuienSoy(visibilidadQuienSoy: any){
+    this.estadoQuienSoy = visibilidadQuienSoy;
   }
 
 }

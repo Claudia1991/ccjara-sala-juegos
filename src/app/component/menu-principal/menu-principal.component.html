@@ -1,10 +1,7 @@
 <nav class="site-header sticky-top py-1">
     <div class="container d-flex flex-column flex-md-row justify-content-between">
-      <a class="py-2 d-none d-md-inline-block" href="/quien-soy">¿Quien Soy?</a>
-      <!-- <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-      <a class="py-2 d-none d-md-inline-block" href="#">Support</a> -->
+      <a class="py-2 d-none d-md-inline-block" (click)="cambiarEstadoQuienSoy()">¿Quien Soy?</a>
+      <a class="py-2 d-none d-md-inline-block" (click)="cambiarEstadoChat()">Sala de Chat</a>
       <a class="py-2 d-none d-md-inline-block" *ngIf="usuarioLogueado">{{usuario}}</a>
       <a class="py-2 d-none d-md-inline-block" href="/login" *ngIf="usuarioLogueado">Salir</a>
     </div>

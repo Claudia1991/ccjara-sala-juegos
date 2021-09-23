@@ -1,0 +1,73 @@
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Ahorcado</h1>
+              <p>Adivina la palabra antes de matar al muñequito</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Jugar</a></p>
+            </div>
+            <div class="imgContainer">
+                <img class="first-slide" src="../../../assets/el-ahorcado.jpg" alt="Ahorcado" >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Mayor o menor</h1>
+              <p>Desarrolla tu capacidad de adivinar la siguiente carta.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Jugar</a></p>
+            </div>
+            <div class="imgContainer">
+                <img class="first-slide" src="../../../assets/MayorMenor.jpg" alt="Ahorcado" >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>Busca Minas</h1>
+              <p>Descubre las banderas </p>
+              <p>sin explotar ninguna mina, intenta sobre vivir!</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Jugar</a></p>
+            </div>
+            <div class="imgContainer">
+                <img class="first-slide" src="../../../assets/Buscaminas-logo.jpg" alt="Ahorcado" >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Preguntados</h1>
+                <p>Se muestra una imagen y debe acertar según las opciones otorgadas!</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Jugar</a></p>
+              </div>
+              <div class="imgContainer">
+                <img class="first-slide" src="../../../assets/Preguntados.jpg" alt="Ahorcado" >
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- TODO USAR FUNCION FIREBASE GUARDS PARA USUARIOS LOGUEADOS 
+    onAuthStateChanged
+y podes usar { path: '**', redirectTo: 'login }
+si escribe cualquier cosa en los path 
+Brian Pavon21:59
+auth.authState.subscribe
+eso es de firebase-->
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>

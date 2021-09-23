@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output,EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-quien-soy',
@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quien-soy.component.css']
 })
 export class QuienSoyComponent implements OnInit {
-
+  //Variables
+  @Output() cambiarEstadoQuienSoy: EventEmitter<boolean> = new EventEmitter<boolean>();
+  //Constructro
   constructor() { }
-
+  //Metodos
   ngOnInit(): void {
+  }
+
+  volver(){
+    this.cambiarEstadoQuienSoy.emit(false);
   }
 
 }

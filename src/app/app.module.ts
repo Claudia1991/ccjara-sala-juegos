@@ -12,6 +12,8 @@ import { DetailComponent } from './component/detail/detail.component';
 import { FormsModule } from '@angular/forms';
 import { QuienSoyComponent } from './component/quien-soy/quien-soy.component';
 import { SpinnerComponent } from './component/spinner/spinner.component';
+import { CarosuelComponent } from './component/carosuel/carosuel.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,14 @@ import { SpinnerComponent } from './component/spinner/spinner.component';
     AdministradorComponent,
     DetailComponent,
     QuienSoyComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    CarosuelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

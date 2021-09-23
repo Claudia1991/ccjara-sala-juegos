@@ -6,6 +6,8 @@ import {ErrorComponent} from './page/error/error.component';
 import {AdministradorComponent} from './page/administrador/administrador.component';
 import {QuienSoyComponent} from './component/quien-soy/quien-soy.component';
 
+
+//TODO: SPRINT 3 MODULOS Y LOADCHILDREN
 const routes: Routes = [
   {
     path:'home',
